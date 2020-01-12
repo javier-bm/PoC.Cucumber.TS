@@ -1,0 +1,27 @@
+{
+  "name": "poc.cucumber.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && cucumber-js features/",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javier-bm/PoC.Cucumber.TS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javier-bm/PoC.Cucumber.TS/issues"
+  },
+  "homepage": "https://github.com/javier-bm/PoC.Cucumber.TS#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/cucumber": "^6.0.0",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5"
+  }
+}
